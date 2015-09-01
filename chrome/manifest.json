@@ -1,0 +1,43 @@
+{
+	"name": "Sad Panda",
+	"short_name": "Sad Panda",
+	"version": "2.3",
+	"manifest_version": 2,
+	"description": "Sad Panda",
+	"homepage_url": "http://haruhichan.com",
+	"content_scripts": [
+		{
+			"run_at": "document_start",
+			"matches": ["http://exhentai.org/", "http://exhentai.org/#"],
+			"css": ["css/bootstrap.min.css", "css/bootstrap-theme.min.css", "css/login.css"],
+			"js": ["lib/jquery.min.js", "lib/bootstrap.min.js", "lib/ex.js"]
+		},
+		{
+			"run_at": "document_start",
+			"matches": ["http://exhentai.org/*"],
+			"js": ["lib/jquery.min.js", "lib/logout.js"]
+		}
+	],
+	"background": {
+		"scripts":["lib/background.js"]
+	},
+	"web_accessible_resources": [
+		"lib/jquery-1.10.2.min.map"
+	],
+	"icons": {
+		"16": "img/appicon/16.png",
+		"32": "img/appicon/32.png",
+		"48": "img/appicon/48.png",
+		"128": "img/appicon/128.png"
+	},
+	"permissions": [
+		"contentSettings",
+		"cookies",
+		"tabs",
+		"notifications",
+		"*://e-hentai.org/*",
+		"*://*.e-hentai.org/*",
+		"*://exhentai.org/*"
+	],
+	"offline_enabled": false
+}
