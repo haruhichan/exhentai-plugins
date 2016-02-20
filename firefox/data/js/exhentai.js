@@ -162,6 +162,11 @@ $(function() {
     );
     
     $('#loginButton').bind('click', loginToEh);
+    $(document).keypress(function(e) {
+        if(e.which == 13) {
+            $('#loginButton').click();
+        }
+    });
     
     self.port.on('obtainUsername', function(payload) {
         if(payload != null) {

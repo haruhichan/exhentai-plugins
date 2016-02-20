@@ -120,6 +120,11 @@ function makeLoginForm() {
 	loadData();
 	
 	$('#loginbutton').click(handleLoginClick);
+	$(document).keypress(function(e) {
+		if(e.which == 13) {
+			$('#loginbutton').click();
+		}
+	});
 }
 
 $(document).ready(function() {
