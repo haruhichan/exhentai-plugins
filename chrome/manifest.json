@@ -8,13 +8,13 @@
 	"content_scripts": [
 		{
 			"run_at": "document_start",
-			"matches": ["http://exhentai.org/", "http://exhentai.org/#"],
+			"matches": ["https://exhentai.org/", "https://exhentai.org/#"],
 			"css": ["css/bootstrap.min.css", "css/bootstrap-theme.min.css", "css/login.css"],
 			"js": ["lib/jquery.min.js", "lib/bootstrap.min.js", "lib/ex.js"]
 		},
 		{
 			"run_at": "document_start",
-			"matches": ["http://exhentai.org/*"],
+			"matches": ["https://exhentai.org/*"],
 			"js": ["lib/jquery.min.js", "lib/logout.js"]
 		}
 	],

@@ -12,13 +12,13 @@
 exports.main = function() {
 
 	pageMod.PageMod({
-		include: "http://exhentai.org*",
+		include: "https://exhentai.org*",
 		contentScriptWhen: "end",
 		contentScriptFile: [self.data.url("js/jquery.js"), self.data.url("js/redirect.js")]
 	});
 
     	pageMod.PageMod({
-		include: "http://exhentai.org/login",		
+		include: "https://exhentai.org/login",		
 		contentScriptWhen: "end",
 		contentScriptFile: [self.data.url("js/jquery.js"), self.data.url("js/exhentai.js")],
 

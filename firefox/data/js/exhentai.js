@@ -70,7 +70,7 @@ function loginToEhResult(r) {
         
         //alert('Login successful, we\'re sending you back to the home page now!');
         
-        window.location.href = 'http://exhentai.org';
+        window.location.href = 'https://exhentai.org';
     }
 }
 
@@ -127,7 +127,7 @@ $(function() {
     //safe html and annoying jquery templating
     b.append(
         $("<div>", { align: "center" })
-            .append($("<img>", { src: "http://exhentai.org", alt: "Sad Panda is Sad" }))
+            .append($("<img>", { src: "https://exhentai.org", alt: "Sad Panda is Sad" }))
 	    .append($("<div>", { id: "errorMsg", class: "alert alert-danger", style: "visibility:hidden; text-align: left;" }))
     );
 
