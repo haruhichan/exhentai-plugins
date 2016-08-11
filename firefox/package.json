@@ -1,15 +1,18 @@
 {
-  "name": "exhentai_easy2",
+  "title": "ExHentai Easy 2",
+  "name": "exhentai_easy_2",
   "fullName": "ExHentai Easy 2",
-  "id": "jid1-7NbXi2AqS1oUFw",
+  "id": "jid1-7NbXi2AqS1oUFw@jetpack",
   "description": "Login to ExHentai with no problems!",
   "homepage": "http://haruhichan.com/forum/showthread.php?24909-Firefox-ExHentai-Easy-v2-Get-past-sad-panda!",
   "author": "Haruhichan (http://haruhichan.com)",
   "license": "MPL 2.0",
-  "version": "0.2.7",
+  "version": "0.2.9",
+  "main" : "lib/main.js",
   "icon": "data/img/icon.png",
   "permissions": {
-    "private-browsing": true
+    "private-browsing": true,
+    "multiprocess": true
   },
   "repository": {
     "type": "git",
