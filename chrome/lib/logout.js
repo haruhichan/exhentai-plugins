@@ -6,7 +6,7 @@ $(document).ready(function() {
 	}
 	
 	menu.html(menu.html() + 
-		'<img src="http://st.exhentai.net/img/mr.gif" alt="">' + 
+		'<img src="data:image/gif;base64,R0lGODlhBQAHALMAAK6vr7OztK+urra2tkJCQsDAwEZGRrKyskdHR0FBQUhISP///wAAAAAAAAAAAAAAACH5BAEAAAsALAAAAAAFAAcAAAQUUI1FlREVpbOUSkTgbZ0CUEhBLREAOw==" alt="">' + 
 		' <a id="haruhichanLogout" href="#">Logout</a>');
 		
 	$('#haruhichanLogout').click(function() {
