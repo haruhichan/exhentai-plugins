@@ -6,7 +6,7 @@ $(document).ready(function() {
 	}
 	
 	menu.html(menu.html() + 
-		'<img src="http://st.exhentai.net/img/mr.gif" alt="">' + 
+		'<img src="https://exhentai.org/img/mr.gif" alt="">' + 
 		' <a id="haruhichanLogout" href="#">Logout</a>');
 		
 	$('#haruhichanLogout').click(function() {
