@@ -167,8 +167,7 @@ function makeLoginForm() {
 $(window).resize(() => document.title = "ExHentai Easy! ~ Login");
 
 $(document).ready(function() {
-    console.log($("body").html());
-    var exSrc = $(`img[src="${document.URL}"]`); // If SadPanda present
+    const exSrc = $(`img[src="${document.URL}"]`); // If SadPanda present
 
     if (exSrc.length) {
         makeLoginForm();
