@@ -85,7 +85,6 @@ function handleLoginClick() {
                + "&PassWord=" + password
                + "&CookieDate=1",
                x => {
-            console.log(x);
             if (x.indexOf("Username or password incorrect") != -1) {
                 displayError("Login failure!");
                 resetLoginForm();
