@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i");
+
+body {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #34353b;
+	color: #DDDDDD;
+	font-family: "Roboto Condensed", Verdana, Arial, Tahoma;
+}
+
+h2 {
+	font-family: "Roboto Condensed", Verdana, Arial, Tahoma;
+	margin-top: 4px;
+}
+
+img {
+	position: relative;
+}
+
+.alert {
+	position: relative;
+	margin-top: 8px;
+	margin-bottom: 0px;
+	max-width: 330px;
+	padding: 8px;
+}
+
+.form-signin {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+	font-weight: normal;
+}
+
+.form-signin .form-control {
+	position: relative;
+	font-size: 16px;
+	height: auto;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+
+.form-signin input[type="text"] {
+	margin-bottom: -1px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
